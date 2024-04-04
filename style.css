@@ -1,0 +1,61 @@
+h1 {
+    color: black;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 15px;
+}
+
+.firstmenu > li {
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 8px;
+}
+
+ul {
+    padding-inline-start:0;
+}
+
+.firstmenu li:hover .secondmenu{
+    display: block;
+    border-top: 1px solid black;
+    font-size: 13px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.hyper{
+    text-decoration: none;
+    color: black;
+}
+
+.secondmenu {
+    display:none;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left:35px;
+}
+
+#line {
+    font-size: 17px;
+    text-align: center;
+}
+
+#numbers {
+    font-size: 13px;
+}
+.answers {
+    visibility: hidden;
+}
+#image {
+    visibility: hidden;
+}
+.question {
+    font-size : 18px;
+    visibility: hidden;
+}
